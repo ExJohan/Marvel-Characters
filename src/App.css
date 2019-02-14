@@ -1,33 +1,70 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: myFirstFont;
+  src: url(American Captain.otf);
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.image {
+  width: 200px;
+  vertical-align: middle;
+  margin-bottom: 0.75em;
+-moz-border-radius:7px;
+-webkit-border-radius:7px;
+border-radius:100px;
+  border: 2px solid white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#elementList{
+  background: black url("wallpaper5.jpg");
+  background-size: 610px;
+  color: white;
+  border: 2px solid white;
+  float:left;
+  width: 610px;
+  height: 350px;
+}
+
+img{
+  margin-top: 30px;
+}
+
+form{
+  margin: 35px;
+  margin-left:50px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+button{
+  width: 150px;
+  margin: 35px;
+  float: right;
+  margin-right: 200px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1{
+  font-size: 30px;
+  text-align: center;
+  font-family: myFirstFont;
+}
+body {
+  background: #080D30 url("wallpaper2.jpg") no-repeat fixed center;
+   }
+.datatest {
+  background-color: whitesmoke;
+  border: 1px solid #333;
+  border-radius: 10px;
+  height: 250px;
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+}
+
+.image-container{
+  margin: 10px;
+  float: left;
+}
+
+.data-container{
+  margin: 10px;
+  float: left;
+
 }
